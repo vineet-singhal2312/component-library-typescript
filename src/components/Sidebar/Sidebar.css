@@ -1,0 +1,36 @@
+.side-bar {
+  background-color: var(--sideNavColor);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 100px;
+}
+
+.sideBarListItem {
+  list-style: none;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  margin: 1rem 0rem;
+}
+.sideBarListItem:hover {
+  background-color: var(--hovorbtnColor);
+
+  animation: slidebg 5s linear infinite;
+}
+
+.link {
+  display: block;
+  color: var(--primaryColor);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 15px 0px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.link:hover {
+  background-color: var(--hovorbtnColor);
+
+  animation: slidebg 5s linear infinite;
+}

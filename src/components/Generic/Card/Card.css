@@ -1,0 +1,85 @@
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 30%;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: none;
+  margin: 1rem;
+}
+
+.card-heading-div {
+  padding: 5rem 7rem;
+  align-self: start;
+}
+.card-heading {
+  text-align: initial;
+  color: var(--primaryColor);
+}
+.card-sub-heading {
+  text-align: initial;
+  color: var(--primaryColor);
+}
+.hero-card-div {
+  width: 80%;
+  position: relative;
+}
+.card-hero-card-img-top {
+  width: 100%;
+  height: 350px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card:hover {
+  transform: scaleY(1.02);
+  transform-origin: bottom;
+}
+.card-text {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+}
+.card-body {
+  color: #ffffff;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  position: relative;
+  padding: 2rem 1rem;
+  height: 150px;
+}
+
+.card-hero-card-badge {
+  background-color: #ffffff;
+  color: black;
+  padding: 0.5rem 2rem;
+  width: 200px;
+  position: absolute;
+  top: -1rem;
+}
+
+.bgGrey {
+  background-color: var(--grey-one-color);
+}
+.colorGrey {
+  color: var(--grey-one-color);
+}
+.bgDarkSkyblue {
+  background-color: var(--skyblue-dark-color);
+}
+.colorDarkSkyblue {
+  color: var(--skyblue-dark-color);
+}
+.bgPurpleDark {
+  background-color: var(--purple-dark-color);
+}
+.colorPurpleDark {
+  color: var(--purple-dark-color);
+}
+.bgRedDark {
+  background-color: var(--red-dark-color);
+}
+.bgBlueDark {
+  background-color: var(--blue-dark-color);
+}

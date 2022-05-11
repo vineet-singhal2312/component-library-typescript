@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Header } from "./components/Navbar/Navbar";
+import SideNav from "./components/Sidebar/Sidebar";
+import { Routes, Route } from "react-router-dom";
+import Button from "./components/Generic/Button/Button";
+import Home from "./pages/Home/Home";
+import Cards from "./components/Generic/Card/Cards";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header heading="yoo" />
+      <SideNav />
+      <div className="main-container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/buttons" element={<Button />} />
+          <Route path="/cards" element={<Cards />} />
+        </Routes>
+      </div>
     </div>
   );
 }

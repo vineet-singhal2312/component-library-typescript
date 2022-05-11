@@ -1,0 +1,91 @@
+.contentDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.contentSubDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 250px;
+  min-width: 250px;
+  background-color: var(--sideNavColor);
+}
+.button {
+  margin: 1rem 0rem;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+}
+.btn1 {
+  padding: 0.5rem 1rem;
+}
+.btn2 {
+  padding: 0.5rem 1.5rem;
+}
+.btn3 {
+  padding: 0.5rem 2rem;
+}
+
+.primary {
+  background-color: var(--perpulColor);
+  border: 1px solid var(--perpulColor);
+}
+.primary:hover {
+  background-color: var(--perpulColorHover);
+  animation: slidebg 5s linear infinite;
+  border: 1px solid var(--perpulColorHover);
+}
+.secondary {
+  color: var(--perpulColor);
+  background-color: transparent;
+  border: 1px solid var(--perpulColor);
+}
+.secondary:hover {
+  color: white;
+  background-color: var(--perpulColorHover);
+  animation: slidebg 5s linear infinite;
+  border: 1px solid var(--perpulColorHover);
+}
+.danger1 {
+  background-color: var(--redColor);
+  border: 1px solid var(--redColor);
+}
+
+.danger1:hover {
+  background-color: var(--redColorHover);
+  animation: slidebg 5s linear infinite;
+}
+.danger2 {
+  color: var(--redColor);
+  background-color: transparent;
+  border: 1px solid var(--redColor);
+}
+.danger2:hover {
+  color: white;
+  background-color: var(--redColorHover);
+  animation: slidebg 5s linear infinite;
+}
+.dark {
+  background-color: var(--blackColor);
+  border: 1px solid var(--blackColor);
+}
+.dark:hover {
+  background-color: var(--blackColorHover);
+  animation: slidebg 5s linear infinite;
+}
+.light {
+  background-color: var(--greyColor);
+  border: 1px solid var(--greyColor);
+}
+.light:hover {
+  color: black;
+  background-color: var(--greyColorHover);
+  animation: slidebg 5s linear infinite;
+}

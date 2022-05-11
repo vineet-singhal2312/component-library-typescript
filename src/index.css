@@ -1,13 +1,53 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+:root {
+  --primaryColor: #6b21a8;
+  --sideNavColor: #f3f4f6;
+  --btnColor: #343a40;
+  --hovorbtnColor: #d8b4fe;
+  --contentPageColor: rgb(255, 255, 254);
+  --blueColor: #1c8cfd;
+  --blueColorHover: #0480fb;
+  --perpulColor: #6b21a8;
+  --perpulColorHover: #c495ea;
+  --redColor: #e60000;
+  --redColorHover: #cc0000;
+  --blackColor: #4d4d4d;
+  --blackColorHover: #404040;
+  --greyColor: #cccccc;
+  --greyColorHover: #d9d9d9#cc0000;
+  --main-color: #ffffff;
+  --second-color: #0b8e69;
+  --bg-grey: #f2f3f3;
+  --grey-one-color: #3e4141;
+  --grey-two-color: #707574;
+  --grey-third-color: #b1b4b3;
+  --grey-fourth-color: #495050;
+  --heading-one: #081f37;
+  --heading-two: #4f46e5;
+  --heading-three: #2772db;
+  --purple-dark-color: #ff80ff;
+  --skyblue-dark-color: #0086b3;
+}
+body {
+  font-family: "Roboto Mono", monospace;
+  height: 100%;
+}
+
+* {
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
 }
